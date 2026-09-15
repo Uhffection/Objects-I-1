@@ -5,5 +5,5 @@ var exampleObject {
 
 function getValue(obj,key) {
   console.log(key)
-  return
+  return obj[key];
 }
