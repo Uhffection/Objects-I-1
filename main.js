@@ -1,8 +1,9 @@
 // Write your code below
 var exampleObject {
-  "key" : "object"
+  "key" : "value"
 }
 
 function getValue(obj,key) {
-
+  console.log(key)
+  return
 }
