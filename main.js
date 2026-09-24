@@ -1,11 +1,10 @@
 // Write your code below
-var exampleObject {
-  "key" : "value";
+var exampleObject = {
+  "testKey" : "testValue"
 }
 
 function getValue(obj,key) {
-  console.log(key);
   return obj[key];
 }
 
-console.log(getValue(exampleObject,"key"));
+console.log(getValue(exampleObject,"testKey"));
